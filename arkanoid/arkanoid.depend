@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1584021381 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\main.c
+	"Arkanoid.h"
+	"Game.h"
+
+1583340829 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\allegro_init.c
+	"Arkanoid.h"
+
+1584020414 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\arkanoid.h
+	<allegro.h>
+
+1584021540 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\menu.c
+	"Arkanoid.h"
+
+1584014492 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\move_cursor.c
+	"Arkanoid.h"
+
+1583359849 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\arkanoid.h
+	<allegro.h>
+
+1584017442 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\paddle.h
+	<allegro.h>
+
+1584210222 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.c
+	"Game.h"
+	"Arkanoid.h"
+
+1584207241 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.h
+	<allegro.h>
+
+1584210222 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\ball.c
+	"Game.h"
+	<time.h>
+
+1584209844 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\paddle.c
+	"Game.h"
+	"Arkanoid.h"
+
