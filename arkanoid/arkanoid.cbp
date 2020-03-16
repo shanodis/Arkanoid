@@ -38,6 +38,10 @@
 		<Unit filename="Ball.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="Ball.h">
+			<Option link="1" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="Game.c">
 			<Option compilerVar="CC" />
 		</Unit>

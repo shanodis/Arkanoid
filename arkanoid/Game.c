@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "Ball.h"
 #include "Arkanoid.h"
 
 static void load_textures(struct Paddle *p,struct Ball *b,struct Bufor *buf)
@@ -26,11 +27,14 @@ static void draw_game(struct Paddle p,struct Ball b,struct Bufor buf)
     blit(buf.bufor,screen,0,0,0,0,800,600);
 }
 
-void start_game(void)
+void load_files(void)
 {
     load_textures(&p,&b,&buf);
     show_video_bitmap(buf.bufor);
+}
 
+void start_game(void)
+{
     start_position_of_paddle(&p);
     start_position_of_collider(&p);
 
@@ -50,7 +54,6 @@ void course_of_the_game(void)
     while(!key[KEY_ESC])
     {
         move_paddle(&p);
-        create_paddle_collider(p,buf);
         collision_with_paddle(&b,&p);
         ball_movement(&b);
         draw_game(p,b,buf);

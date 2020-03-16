@@ -22,6 +22,7 @@ int main(void)
         while (speed_counter > 0)
             speed_counter--;
         create_menu();
+        load_files();
         start_game();
         course_of_the_game();
     }

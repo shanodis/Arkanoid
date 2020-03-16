@@ -11,17 +11,6 @@ struct Paddle
 
 }p;
 
-struct Ball
-{
-    double x,y;
-    double dx,dy;
-    double speed;
-    double xprev;
-    double yprev;
-    BITMAP *ball;
-
-}b;
-
 struct Bufor
 {
     BITMAP *bufor;
@@ -30,9 +19,10 @@ struct Bufor
 
 extern void start_game(void);
 extern void course_of_the_game(void);
-extern void move_paddle(struct Paddle *);
-extern void start_position_of_ball(struct Ball *);
-extern void ball_movement(struct Ball *);
+extern void load_files(void);
+
 extern void start_position_of_paddle(struct Paddle *);
+extern void start_position_of_collider(struct Paddle *p);
+extern void move_paddle(struct Paddle *);
 
 #endif

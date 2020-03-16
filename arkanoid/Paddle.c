@@ -32,8 +32,3 @@ void start_position_of_collider(struct Paddle *p)
     p->Colx2=SCREEN_W/2+54;
     p->Coly2=SCREEN_H-40+24;
 }
-
-void create_paddle_collider(struct Paddle p,struct Bufor b)
-{
-    rectfill(buf.bufor,p.Colx1,p.Coly1,p.Colx2,p.Coly2,BLACK);
-}
