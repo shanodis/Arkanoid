@@ -14,6 +14,6 @@ struct Ball
 
 extern void start_position_of_ball(struct Ball *);
 extern void ball_movement(struct Ball *);
-extern int collision_with_paddle(struct Ball *b,struct Paddle *p);
+extern int collision_with_paddle(struct Ball *,struct Paddle *);
 
 #endif
