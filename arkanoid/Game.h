@@ -2,23 +2,22 @@
 #define PADDLE_H_INCLUDED
 
 #include <allegro.h>
+#include <stdbool.h>
 
 struct Paddle
 {
     double x,y;
     double Colx1,Coly1,Colx2,Coly2;
+    int lives;
     BITMAP *paddle;
-
 };
 
 struct Bufor
 {
     BITMAP *bufor;
-
 };
 
-extern void start_game(void);
-extern void course_of_the_game(void);
+extern bool start_game(void);
 extern void load_files(void);
 
 extern void start_position_of_paddle(struct Paddle *);

@@ -31,6 +31,13 @@ static void draw_game(struct Paddle p,struct Ball b,struct Bufor buf,int *sec,in
     blit(buf.bufor,screen,0,0,0,0,800,600);
 }
 
+static bool player_lives(struct Paddle *p)
+{
+    /*Tutaj bêdzie zaimplementowane ¿ycie gracza*/
+    return false;
+}
+
+
 void print_time(struct Bufor buf,int *sec,int *d_sec,int *min,long long int *check,long long int *counter)
 {
     textprintf_centre_ex(buf.bufor,f.myfont,SCREEN_W/2,SCREEN_H/2,BLACK,-1,"Time: %d:%d%d",*min,*d_sec,*sec);
@@ -41,7 +48,7 @@ void print_time(struct Bufor buf,int *sec,int *d_sec,int *min,long long int *che
         *sec+=1;
         *check+=1000;
 
-        if(*d_sec==6)
+        if(*d_sec==5 && *sec==10)
         {
             *min+=1;
             *sec=0;
@@ -93,8 +100,9 @@ void load_files(void)
     show_video_bitmap(buf.bufor);
 }
 
-void start_game(void)
+bool start_game(void)
 {
+    /*Start gry, pozycje startowe obiektów*/
     struct Bufor buf;
     struct Paddle p;
     struct Ball b;
@@ -109,22 +117,22 @@ void start_game(void)
         move_paddle(&p);
         draw_start(p,b,buf,f);
     }
-}
 
-void course_of_the_game(void)
-{
-    struct Bufor buf;
-    struct Paddle p;
-    struct Ball b;
-
+    /*Przebieg gry*/
     int d_sec=0,sec=0,min=0;
-    long long int check=600,counter=0;
+    long long int check=1000,counter=0;
 
     while(!key[KEY_ESC])
     {
         if(collision_with_paddle(&b,&p)==false) break;
+        /*{
+            if(player_lives(&p)==false)
+               return false;
+        }*/
+        /*wyzej fragment kodu do zycia gracza*/
         move_paddle(&p);
         ball_movement(&b);
         draw_game(p,b,buf,&sec,&d_sec,&min,&check,&counter);
     }
+    return true;
 }

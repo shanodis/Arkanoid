@@ -1,6 +1,5 @@
 #include "Arkanoid.h"
 #include "Game.h"
-#include <allegro.h>
 
 volatile int speed_counter=0;
 
@@ -24,8 +23,7 @@ int main(void)
             speed_counter--;
         create_menu();
         load_files();
-        start_game();
-        course_of_the_game();
+        while(start_game()!=false && !key[KEY_ESC]);
     }
     allegro_exit();
 
