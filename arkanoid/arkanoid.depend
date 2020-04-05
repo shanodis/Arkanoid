@@ -1,19 +1,23 @@
 # depslib dependency file v1.0
-1584281658 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\main.c
+1586014000 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\main.c
 	"Arkanoid.h"
 	"Game.h"
-
-1583340829 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\allegro_init.c
-	"Arkanoid.h"
-
-1584020414 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\arkanoid.h
 	<allegro.h>
 
-1584021540 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\menu.c
+1586010352 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\allegro_init.c
 	"Arkanoid.h"
+	<allegro.h>
 
-1584014492 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\move_cursor.c
+1584627280 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\arkanoid.h
+	<allegro.h>
+
+1585306062 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\menu.c
 	"Arkanoid.h"
+	<allegro.h>
+
+1585306062 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\move_cursor.c
+	"Arkanoid.h"
+	<allegro.h>
 
 1583359849 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\arkanoid.h
 	<allegro.h>
@@ -21,23 +25,26 @@
 1584286026 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\paddle.h
 	<allegro.h>
 
-1584286201 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.c
+1586048971 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.c
 	"Game.h"
 	"Ball.h"
 	"Arkanoid.h"
+	<stdbool.h>
+	<time.h>
 
-1584286260 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.h
+1585999716 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.h
 	<allegro.h>
 
-1584287329 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\ball.c
+1586008624 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\ball.c
 	"Game.h"
 	"Ball.h"
 	<math.h>
+	<time.h>
 
-1584286154 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\paddle.c
+1585308542 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\paddle.c
 	"Game.h"
 	"Arkanoid.h"
 
-1584287329 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\ball.h
+1586047315 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\ball.h
 	<allegro.h>
 

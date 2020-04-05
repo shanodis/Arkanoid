@@ -1,4 +1,5 @@
 #include "Arkanoid.h"
+#include <allegro.h>
 
 extern int go_down(int count,int *c1,int *c2,int *c3);
 extern int go_up(int count,int *c1,int *c2,int *c3);

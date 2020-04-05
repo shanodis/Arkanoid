@@ -5,15 +5,19 @@
 
 struct Ball
 {
-    double x,y;
+    double x,y;/*dla obrazka*/
     double dx,dy;
+    double x1,x2,y1,y2;/*dla kolidera*/
+    int radius;
+
     double speed;
     BITMAP *ball;
 
-}b;
+};
 
+extern volatile int speed_counter;
 extern void start_position_of_ball(struct Ball *);
 extern void ball_movement(struct Ball *);
-extern int collision_with_paddle(struct Ball *,struct Paddle *);
+extern void set_new_direction(struct Ball *);
 
 #endif

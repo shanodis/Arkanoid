@@ -1,5 +1,6 @@
 #include "Arkanoid.h"
 #include "Game.h"
+#include <allegro.h>
 
 volatile int speed_counter=0;
 

@@ -1,4 +1,5 @@
 #include "Arkanoid.h"
+#include <allegro.h>
 
 void initialise_alleg(void)
 {
@@ -17,5 +18,4 @@ void initialise_alleg(void)
         allegro_message("Blad inicjalizacji grafiki!");
         exit(1);
     }
-    install_timer();
 }

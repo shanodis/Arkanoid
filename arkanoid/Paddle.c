@@ -23,12 +23,3 @@ void move_paddle(struct Paddle *p)
         p->Colx2=p->Colx2+1.5;
     }
 }
-
-void start_position_of_collider(struct Paddle *p)
-{
-    p->Colx1=SCREEN_W/2-50;
-    p->Coly1=SCREEN_H-40;
-
-    p->Colx2=SCREEN_W/2+54;
-    p->Coly2=SCREEN_H-40+24;
-}
