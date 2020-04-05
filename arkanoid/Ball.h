@@ -15,7 +15,6 @@ struct Ball
 
 };
 
-extern volatile int speed_counter;
 extern void start_position_of_ball(struct Ball *);
 extern void ball_movement(struct Ball *);
 extern void set_new_direction(struct Ball *);
