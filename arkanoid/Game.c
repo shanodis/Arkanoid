@@ -1,44 +1,9 @@
 #include "Game.h"
 #include "Ball.h"
 #include "Arkanoid.h"
-#include <stdbool.h>
 #include <time.h>
 
-void print_time(struct Bufor,int *,int *,int *,long long int *,long long int *);
-
-static void load_textures(struct Paddle *p,struct Ball *b,struct Bufor *buf)
-{
-    p->paddle=load_bitmap("data/paddle.bmp",NULL);
-    b->ball=load_bitmap("data/ball.bmp",NULL);
-    buf->bufor=create_bitmap(800,600);
-}
-
-static void draw_start(struct Paddle p,struct Ball b,struct Bufor buf,struct Myfont f)
-{
-    clear_to_color(buf.bufor,WHITE);
-    textout_centre_ex(buf.bufor,f.myfont,"Press Space",SCREEN_W/2,SCREEN_H/2,BLACK,WHITE);
-    draw_sprite(buf.bufor,p.paddle,p.x,p.y);
-    draw_sprite(buf.bufor,b.ball,b.x,b.y);
-    blit(buf.bufor,screen,0,0,0,0,800,600);
-}
-
-static void draw_game(struct Paddle p,struct Ball b,struct Bufor buf,int *sec,int *d_sec,int *min,long long int *check,long long int *counter)
-{
-    clear_to_color(buf.bufor,WHITE);
-    draw_sprite(buf.bufor,p.paddle,p.x,p.y);
-    draw_sprite(buf.bufor,b.ball,b.x,b.y);
-    print_time(buf,sec,d_sec,min,check,counter);
-    blit(buf.bufor,screen,0,0,0,0,800,600);
-}
-
-static bool player_lives(struct Paddle *p)
-{
-    /*Tutaj bêdzie zaimplementowane ¿ycie gracza*/
-    return false;
-}
-
-
-void print_time(struct Bufor buf,int *sec,int *d_sec,int *min,long long int *check,long long int *counter)
+static void print_time(struct Bufor buf,struct Myfont f,int *sec,int *d_sec,int *min,long long int *check,long long int *counter)
 {
     textprintf_centre_ex(buf.bufor,f.myfont,SCREEN_W/2,SCREEN_H/2,BLACK,-1,"Time: %d:%d%d",*min,*d_sec,*sec);
 
@@ -60,6 +25,37 @@ void print_time(struct Bufor buf,int *sec,int *d_sec,int *min,long long int *che
             *sec=0;
         }
     }
+}
+
+static void load_textures(struct Paddle *p,struct Ball *b,struct Bufor *buf)
+{
+    p->paddle=load_bitmap("data/paddle.bmp",NULL);
+    b->ball=load_bitmap("data/ball.bmp",NULL);
+    buf->bufor=create_bitmap(800,600);
+}
+
+static void draw_start(struct Paddle p,struct Ball b,struct Bufor buf,struct Myfont f)
+{
+    clear_to_color(buf.bufor,WHITE);
+    textout_centre_ex(buf.bufor,f.myfont,"Press Space",SCREEN_W/2,SCREEN_H/2,BLACK,WHITE);
+    draw_sprite(buf.bufor,p.paddle,p.x,p.y);
+    draw_sprite(buf.bufor,b.ball,b.x,b.y);
+    blit(buf.bufor,screen,0,0,0,0,800,600);
+}
+
+static void draw_game(struct Paddle p,struct Ball b,struct Bufor buf,struct Myfont f,int *sec,int *d_sec,int *min,long long int *check,long long int *counter)
+{
+    clear_to_color(buf.bufor,WHITE);
+    draw_sprite(buf.bufor,p.paddle,p.x,p.y);
+    draw_sprite(buf.bufor,b.ball,b.x,b.y);
+    print_time(buf,f,sec,d_sec,min,check,counter);
+    blit(buf.bufor,screen,0,0,0,0,800,600);
+}
+
+static bool player_lives(struct Paddle *p)
+{
+    /*Tutaj bêdzie zaimplementowane ¿ycie gracza*/
+    return false;
 }
 
 void start_position_of_colliders(struct Ball *b,struct Paddle *p)
@@ -106,7 +102,9 @@ bool start_game(void)
     struct Bufor buf;
     struct Paddle p;
     struct Ball b;
+    struct Myfont f;
 
+    load_myfont(&f);
     start_position_of_paddle(&p);
     start_position_of_colliders(&b,&p);
 
@@ -132,7 +130,7 @@ bool start_game(void)
         /*wyzej fragment kodu do zycia gracza*/
         move_paddle(&p);
         ball_movement(&b);
-        draw_game(p,b,buf,&sec,&d_sec,&min,&check,&counter);
+        draw_game(p,b,buf,f,&sec,&d_sec,&min,&check,&counter);
     }
     return true;
 }

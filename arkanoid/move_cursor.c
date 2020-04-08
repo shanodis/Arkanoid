@@ -1,5 +1,4 @@
 #include "Arkanoid.h"
-#include <allegro.h>
 
 int go_down(int count,int *c1,int *c2,int *c3)
 {
@@ -15,6 +14,7 @@ int go_down(int count,int *c1,int *c2,int *c3)
         *c3=PINK;
         return count=3;
     }
+    return count;
 }
 
 int go_up(int count,int *c1,int *c2,int *c3)
@@ -31,4 +31,5 @@ int go_up(int count,int *c1,int *c2,int *c3)
         *c3=WHITE;
         return count=2;
     }
+    return count;
 }

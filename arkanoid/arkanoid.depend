@@ -7,16 +7,14 @@
 	"Arkanoid.h"
 	<allegro.h>
 
-1586096781 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\arkanoid.h
+1586363197 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\arkanoid.h
 	<allegro.h>
 
-1586096775 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\menu.c
+1586363146 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\menu.c
 	"Arkanoid.h"
-	<allegro.h>
 
-1585306062 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\move_cursor.c
+1586361511 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\move_cursor.c
 	"Arkanoid.h"
-	<allegro.h>
 
 1583359849 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\arkanoid.h
 	<allegro.h>
@@ -24,11 +22,10 @@
 1584286026 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\paddle.h
 	<allegro.h>
 
-1586096775 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.c
+1586363086 source:c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.c
 	"Game.h"
 	"Ball.h"
 	"Arkanoid.h"
-	<stdbool.h>
 	<time.h>
 
 1586095559 c:\users\chomik\desktop\studia\podstawy programowania 2 projekt\arkanoid\game.h
