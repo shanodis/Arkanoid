@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T15:49:49.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="zAUIepjKT89db7LWy9uD" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-13T16:03:15.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ZOibafwGsyEMgD6exDCJ" version="17.1.2" type="github">
   <diagram name="Page-1" id="64c3da0e-402f-94eb-ee01-a36477274f13">
-    <mxGraphModel dx="2354" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3357" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,18 +34,6 @@
         <mxCell id="26" value="Gniazdo pakowania produktów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="-759.9999999999998" y="370.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="38" value="WORK&#xa;PACKAGE 1" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="-200.0000000000004" y="400.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="39" value="WORK&#xa;PACKAGE 2" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="-200.00000000000023" y="480.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="40" value="WORK&#xa;PACKAGE 3" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="-200.00000000000028" y="560.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="41" value="WORK&#xa;PACKAGE 4" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="-200.0000000000001" y="640.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="103" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="3" target="10" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-450" y="290" as="sourcePoint" />
@@ -65,176 +53,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="111" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" target="38" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-210" y="330.0000000000004" as="sourcePoint" />
-            <mxPoint x="-210" y="430.0000000000004" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-220" y="380" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="112" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="12" target="39" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-210" y="330.0000000000004" as="sourcePoint" />
-            <mxPoint x="-210" y="510.0000000000004" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-220" y="420" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="113" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="12" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-210" y="330.0000000000004" as="sourcePoint" />
-            <mxPoint x="-200" y="750" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-220" y="540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="114" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="12" target="41" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-210" y="330.0000000000004" as="sourcePoint" />
-            <mxPoint x="-209.99999999999977" y="670.0000000000003" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-220" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="115" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="12" target="40" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-210" y="330.0000000000004" as="sourcePoint" />
-            <mxPoint x="-210" y="590.0000000000003" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-220" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="133" value="Montaż fasady" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1899.9999999999998" y="290.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="134" value="Montaż okna drewnianego" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="2100" y="290.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="135" value="WORK&#xa;PACKAGE 1" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1899.9999999999998" y="390.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="136" value="WORK&#xa;PACKAGE 2" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1900" y="470.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="137" value="WORK&#xa;PACKAGE 3" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1899.9999999999998" y="550.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="138" value="WORK&#xa;PACKAGE 4" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1900" y="630.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="139" value="WORK&#xa;PACKAGE 5" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1900" y="710.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="140" value="WORK&#xa;PACKAGE 1" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2099.999999999999" y="390.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="141" value="WORK&#xa;PACKAGE 2" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2099.9999999999995" y="470.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="142" value="WORK&#xa;PACKAGE 3" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2099.9999999999995" y="550.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="143" value="WORK&#xa;PACKAGE 4" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2099.9999999999995" y="630.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="144" value="WORK&#xa;PACKAGE 5" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2100" y="710.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="145" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="133" target="135" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1880" y="320.00000000000045" as="sourcePoint" />
-            <mxPoint x="1889.9999999999995" y="420" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1880" y="370" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="146" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="133" target="136" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1890" y="320" as="sourcePoint" />
-            <mxPoint x="1889.9999999999998" y="500" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1880" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="147" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="133" target="139" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1890" y="320" as="sourcePoint" />
-            <mxPoint x="1890" y="740" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1880" y="540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="148" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="133" target="138" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1890" y="320" as="sourcePoint" />
-            <mxPoint x="1890" y="660" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1880" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="149" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="133" target="137" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1890" y="320" as="sourcePoint" />
-            <mxPoint x="1889.9999999999998" y="580" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1880" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="150" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="134" target="140" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="2070" y="320.00000000000045" as="sourcePoint" />
-            <mxPoint x="2079.9999999999995" y="420" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2080" y="370" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="151" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="134" target="141" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="2080" y="320" as="sourcePoint" />
-            <mxPoint x="2080" y="500" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2080" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="152" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="134" target="144" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="2080" y="320" as="sourcePoint" />
-            <mxPoint x="2080" y="740" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2080" y="530" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="153" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="134" target="143" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="2080" y="320" as="sourcePoint" />
-            <mxPoint x="2080" y="660" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2080" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="154" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="134" target="142" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="2080" y="320" as="sourcePoint" />
-            <mxPoint x="2080" y="580" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2080" y="460" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="221" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="6" target="133" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -371,6 +194,78 @@
         </mxCell>
         <mxCell id="9-6c7BfhoWEWpENg01it-258" value="Gniazdo montażu i składania produktów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-600.0000000000001" y="280.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-259" value="Gniazdo obróbki termicznej elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-380" y="390.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-261" value="Gniazdo przycinania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-380" y="480.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-262" value="Gniazdo szlifowania i wygładzania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-380.00000000000045" y="570.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-263" value="Gniazdo wycinania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-380.0000000000001" y="660.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-264" value="Gniazdo frezowania elementów drewnianych" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-180.00000000000045" y="390.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-265" value="Gniazdo szlifowania i wygładzania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-180.00000000000045" y="480.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-266" value="Gniazdo sklejania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-180" y="570.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-267" value="Gniazdo konserwacji i zabezpieczania" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-180.0000000000001" y="660.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-268" value="Gniazdo obróbki termicznej elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="10" y="390.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-269" value="Gniazdo przycinania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="10" y="480.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-270" value="Gniazdo szlifowania i wygładzania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="9.999999999999545" y="570.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-271" value="Gniazdo wycinania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="9.999999999999886" y="660.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-272" value="Gniazdo obróbki termicznej elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="190" y="390.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-273" value="Gniazdo przycinania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="190" y="480.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-274" value="Gniazdo szlifowania i wygładzania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="189.99999999999955" y="570.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-275" value="Gniazdo konserwacji i zabezpieczania" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="189.9999999999999" y="660.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-276" value="Gniazdo frezowania elementów drewnianych" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="359.99999999999955" y="390.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-277" value="Gniazdo szlifowania i wygładzania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="359.99999999999955" y="480.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-278" value="Gniazdo wycinania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="359.9999999999999" y="570.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-279" value="Gniazdo konserwacji i zabezpieczania" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="359.9999999999999" y="660.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-280" value="Gniazdo obróbki termicznej elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1110" y="383.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-281" value="Gniazdo szlifowania i wygładzania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1109.9999999999995" y="470.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-282" value="Gniazdo wycinania elementów" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1110" y="560.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9-6c7BfhoWEWpENg01it-283" value="Gniazdo konserwacji i zabezpieczania" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1110" y="650.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
